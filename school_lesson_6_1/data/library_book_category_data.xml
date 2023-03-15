@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="library_category_classics_demo" model="library.book.category">
+        <field name="name">Classics</field>
+    </record>
+    <record id="library_category_crime_demo" model="library.book.category">
+        <field name="name">Crime</field>
+    </record>
+    <record id="library_category_fantasy_demo" model="library.book.category">
+        <field name="name">Fantasy</field>
+    </record>
+
+</odoo>

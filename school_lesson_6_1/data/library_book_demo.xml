@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="library_Marucia_demo" model="library.book">
+        <field name="name">Маруся Чурай</field>
+        <field name="category_id" ref="library_category_classics_demo"/>
+    </record>
+    <record id="library_poklik_demo" model="library.book">
+        <field name="name">Поклик предків</field>
+        <field name="category_id" ref="library_category_crime_demo"/>
+    </record>
+    <record id="library_twenty_thousand_demo" model="library.book">
+        <field name="name">Двадцять тисяч льє під водою</field>
+        <field name="category_id" ref="library_category_fantasy_demo"/>
+    </record>
+    
+
+</odoo>
